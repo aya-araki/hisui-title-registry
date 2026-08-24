@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: hisui-title-registry
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: STAFF_KEY
+        generateValue: true
+      - key: DATA_DIR
+        value: /data
+    disk:
+      name: data
+      mountPath: /data
+      sizeGB: 1
