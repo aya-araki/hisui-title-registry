@@ -214,7 +214,7 @@ button:hover { background:var(--surface-hover); }
 <div class="header">
   <div class="header-top">
     <h1>hisui タイトル管理台帳</h1>
-    <span class="sub">株式会社飛騨</span>
+    <span class="sub">株式会社飛翠</span>
   </div>
   <div class="tabs">
     <button class="tab-btn active" onclick="switchTab('titles')">タイトル管理</button>
@@ -308,7 +308,7 @@ button:hover { background:var(--surface-hover); }
     <div class="settings-card">
       <h3>会社情報</h3>
       <div class="form-row">
-        <div class="form-group"><label>会社名</label><input type="text" id="cfgCompany" placeholder="株式会社飛騨"></div>
+        <div class="form-group"><label>会社名</label><input type="text" id="cfgCompany" placeholder="株式会社飛翠"></div>
         <div class="form-group"><label>登録番号（インボイス）</label><input type="text" id="cfgRegNum" placeholder="T1234567890123"></div>
       </div>
       <div class="form-row">
