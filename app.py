@@ -15,6 +15,25 @@ INVOICES_PATH = os.path.join(DATA_DIR, "invoices.json")
 CONTE_DIR = os.path.expanduser("~/spotting_tool/conte")
 STAFF_KEY = os.environ.get("STAFF_KEY", "")
 
+SEED_DIR = os.path.join(BASE_DIR, "seed")
+
+
+def _init_data():
+    """永続ディスクが空なら seed/ からコピーして初期化"""
+    if DATA_DIR == BASE_DIR:
+        return
+    os.makedirs(DATA_DIR, exist_ok=True)
+    for name in ("titles.json", "config.json", "invoices.json"):
+        dest = os.path.join(DATA_DIR, name)
+        if not os.path.exists(dest):
+            src = os.path.join(SEED_DIR, name)
+            if os.path.exists(src):
+                import shutil
+                shutil.copy2(src, dest)
+
+
+_init_data()
+
 app = Flask(__name__)
 
 

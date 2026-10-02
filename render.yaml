@@ -6,7 +6,7 @@ services:
     startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
     envVars:
       - key: STAFF_KEY
-        generateValue: true
+        sync: false
       - key: DATA_DIR
         value: /data
     disk:

@@ -1,0 +1,74 @@
+{
+  "BKY": {
+    "client": "シンエイ動画",
+    "ct_progress": 9,
+    "delivery_progress": 0,
+    "editing_fee": 0,
+    "format": {
+      "eyecatch": {"enabled": false, "seconds": 0},
+      "honpen_jaku": "23:09",
+      "subtitle": {"enabled": false, "seconds": 0},
+      "yokoku": {"enabled": false, "seconds": 0}
+    },
+    "format_link": "https://docs.google.com/spreadsheets/d/13tq7RXYknATnDwrl6v64bAcHEZYC0A1E/edit?usp=drive_link&ouid=117798180410305797465&rtpof=true&sd=true",
+    "notes": "",
+    "qsheet_link": "https://docs.google.com/spreadsheets/d/1mRI1Qlr5nnsAVHsVW5uDq57F9HQ3voqxQ7yuln1tlps/edit?usp=drive_link",
+    "schedule": "放送開始日：2027年1月",
+    "title": "僕の心のヤバイやつ",
+    "total_episodes": 12
+  },
+  "COS": {
+    "client": "PIERROT FILMS",
+    "ct_progress": 2,
+    "delivery_progress": 0,
+    "editing_fee": 0,
+    "format": {
+      "eyecatch": {"enabled": false, "seconds": 0},
+      "honpen_jaku": "21:30",
+      "subtitle": {"enabled": false, "seconds": 0},
+      "yokoku": {"enabled": true, "seconds": 25}
+    },
+    "format_link": "https://docs.google.com/spreadsheets/d/119NuwUPdQYIniceDLc5X1t12ZiFW8UQR/edit?usp=drive_link&ouid=117798180410305797465&rtpof=true&sd=true",
+    "notes": "OP,ED,次回予告,エンドカード込みの合計尺1500秒（25分）\n音出し1秒（頭無音1秒）、音終2秒（尻無音2秒）\n第2クール2028年10月（全28話）",
+    "qsheet_link": "https://docs.google.com/spreadsheets/d/1iBoojquGGaLWdbm0XratmkoNmv0qSzTdazU95-JAlIg/edit?usp=drive_link",
+    "schedule": "放送開始日：2028年1月",
+    "title": "COSMOS",
+    "total_episodes": 14
+  },
+  "ONE": {
+    "client": "WIT STUDIO",
+    "ct_progress": 7,
+    "delivery_progress": 3,
+    "editing_fee": 0,
+    "format": {
+      "eyecatch": {"enabled": false, "seconds": 0},
+      "honpen_jaku": "",
+      "subtitle": {"enabled": true, "seconds": 5},
+      "yokoku": {"enabled": false, "seconds": 0}
+    },
+    "format_link": "",
+    "notes": "劇場公開→Netflix配信→120分尺でTV公開\nシーズン１　#１〜#7　240分\nシーズン２　#8〜#13　240分",
+    "qsheet_link": "https://docs.google.com/spreadsheets/d/1U85wnczTrmG2C5Wf2fbOI7brlNXkBZOSBv9rUyCv3jU/edit?usp=drive_link",
+    "schedule": "配信開始日：2027年2月",
+    "title": "THE ONEPIECE",
+    "total_episodes": 7
+  },
+  "SD2": {
+    "client": "トムス・エンタテイメント",
+    "ct_progress": 10,
+    "delivery_progress": 0,
+    "editing_fee": 0,
+    "format": {
+      "eyecatch": {"enabled": true, "seconds": 5},
+      "honpen_jaku": "20:35",
+      "subtitle": {"enabled": false, "seconds": 0},
+      "yokoku": {"enabled": false, "seconds": 0}
+    },
+    "format_link": "",
+    "notes": "本編総尺が20分35秒か20分40秒かを#1MK時に決める。\nコーションが、3パターンあり。\nOP3つ、ED2つあり。\nOPの位置は、毎回冒頭か、Avant後にするかをMK時に判断。",
+    "qsheet_link": "https://docs.google.com/spreadsheets/d/1Iiax1Rqz8D5yLrnRTaG8Is03dos2qG8B9tI8d42kg1Y/edit?usp=drive_link",
+    "schedule": "放送開始日：2027/01/11",
+    "title": "サカモトデイズ第2期",
+    "total_episodes": 11
+  }
+}
